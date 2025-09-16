@@ -4,6 +4,7 @@ A .NET 9 Web API project that demonstrates JWT Authentication & Authorization wi
 
 This project is designed for learning secure API development with role-based access control in ASP.NET Core.
 
+
 ✨ Features
 
 🔐 JWT Authentication (Access + Refresh Tokens)
@@ -22,6 +23,7 @@ This project is designed for learning secure API development with role-based acc
 
 📄 API Documentation with Scalar
 
+
 🚀 Endpoints Overview
 🔑 Auth
 
@@ -34,6 +36,7 @@ POST /api/Auth/refresh-token → Get new Access token
 GET /api/Auth/me → Get logged-in user profile
 
 GET /api/Auth/admin-only → Test admin-only access
+
 
 🎓 Students
 
@@ -49,6 +52,7 @@ PUT /api/Students/{id}/role → Update role (Admin only)
 
 DELETE /api/Students/{id} → Delete a user (Admin only)
 
+
 🛠️ Tech Stack
 
 .NET 9 (ASP.NET Core Web API)
@@ -59,11 +63,13 @@ JWT (System.IdentityModel.Tokens.Jwt)
 
 Scalar API (for OpenAPI docs)
 
+
 ▶️ How to Run
 
 Clone repo:
 
 git clone https://github.com/yourusername/StudentManagementApi.git
+
 cd StudentManagementApi
 
 
