@@ -35,8 +35,6 @@ StudentManagementApi 🎓
   POST /api/Auth/refresh-token → Get new Access token
   
   GET /api/Auth/me → Get logged-in user profile
-  
-  GET /api/Auth/admin-only → Test admin-only access
 
 
 🎓 Students
