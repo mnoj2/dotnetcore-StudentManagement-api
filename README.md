@@ -25,6 +25,7 @@ This project is designed for learning secure API development with role-based acc
 
 
 🚀 Endpoints Overview
+
 🔑 Auth
 
 POST /api/Auth/register → Register new user
